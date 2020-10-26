@@ -1,0 +1,23 @@
+{
+  "name": "skiplist",
+  "version": "1.0.0",
+  "description": "Implementation of skip-list, this is first version",
+  "main": "index.ts",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingwy/SkipList.git"
+  },
+  "keywords": [
+    "skip-list",
+    "skiplist"
+  ],
+  "author": "xingwy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingwy/SkipList/issues"
+  },
+  "homepage": "https://github.com/xingwy/SkipList#readme"
+}

@@ -1,0 +1,27 @@
+import { SkipList } from "../index";
+
+let list =  new SkipList<number, string>((a: number, b: number): number => (b - a), 3);
+list.slInsert(1, "1");
+list.slInsert(4, "4");
+list.slInsert(51, "51");
+list.slInsert(22, "22");
+list.slInsert(32, "32");
+list.slInsert(19, "19");
+list.slInsert(5, "5");
+list.slInsert(2, "2");
+list.slInsert(3, "3");
+list.slInsert(11, "11");
+list.slInsert(14, "14");
+list.slInsert(43, "43");
+list.slInsert(55, "55");
+list.slInsert(28, "28");
+list.slInsert(3, "3");
+list.slInsert(19, "19.5");
+list.slInsert(30, "30");
+list.slInsert(16, "16");
+list.slInsert(46, "46");
+list.slInsert(59, "59");
+list.slInsert(23, "23");
+console.log(list.test_toShow());
+list.slRemove(23);
+list.search(16);
